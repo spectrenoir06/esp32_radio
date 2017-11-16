@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/spectre/kicad/esp32_radio/esp32_radio.sch</source>
+    <date>sam. 23 sept. 2017 03:51:42 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32_radio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>Joystick</value>
+      <footprint>spectre:Joystick_raider</footprint>
+      <libsource lib="spectre" part="Joystick"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599373E2</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>Joystick</value>
+      <footprint>spectre:Joystick_raider</footprint>
+      <libsource lib="spectre" part="Joystick"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59937C85</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ILI9341_TOUCH_SD</value>
+      <footprint>spectre:LCD</footprint>
+      <libsource lib="spectre" part="ILI9341_TOUCH_SD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599598F1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>esp32-lolin32</value>
+      <footprint>spectre:esp32-lolin32</footprint>
+      <libsource lib="spectre" part="esp32-lolin32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C1747C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RF4IN1</value>
+      <footprint>spectre:RF4IN1</footprint>
+      <libsource lib="spectre" part="RF4IN1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5990EB3C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RP-SMA</value>
+      <footprint>tinkerforge:CON-SMA-EDGE</footprint>
+      <libsource lib="spectre" part="RP-SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C1B34B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_NRF24</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C5873D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C5A988</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>WS2812B</value>
+      <footprint>spectre:WS2812B_smallsilk</footprint>
+      <libsource lib="spectre" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C5B493</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector, double row, 02x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector, double row, 02x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="ILI9341_TOUCH_SD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ILI9341_TOUCH_SD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="TFT_CS" type="input"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="TFT_DC" type="input"/>
+        <pin num="6" name="TFT_MOSI" type="input"/>
+        <pin num="7" name="TFT_SCK" type="input"/>
+        <pin num="8" name="LED" type="input"/>
+        <pin num="9" name="TFT_MISO" type="input"/>
+        <pin num="10" name="T_CLK" type="input"/>
+        <pin num="11" name="T_CS" type="input"/>
+        <pin num="12" name="T_DIN" type="input"/>
+        <pin num="13" name="T_OUT" type="input"/>
+        <pin num="14" name="T_IRQ" type="input"/>
+        <pin num="15" name="SD_CS" type="input"/>
+        <pin num="16" name="SD_MOSI" type="input"/>
+        <pin num="17" name="SD_MISO" type="input"/>
+        <pin num="18" name="SD_SCK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="Joystick">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Joystick</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B1A" type="input"/>
+        <pin num="2" name="B2A" type="input"/>
+        <pin num="3" name="B1B" type="input"/>
+        <pin num="4" name="B2B" type="input"/>
+        <pin num="5" name="H+" type="input"/>
+        <pin num="6" name="H" type="input"/>
+        <pin num="7" name="H-" type="input"/>
+        <pin num="8" name="V+" type="input"/>
+        <pin num="9" name="V" type="input"/>
+        <pin num="10" name="V-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="RF4IN1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RF4IN1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="PE1" type="input"/>
+        <pin num="4" name="PE2" type="input"/>
+        <pin num="5" name="CS_A7105" type="input"/>
+        <pin num="6" name="CS_CC2500" type="input"/>
+        <pin num="7" name="CS_NRF24" type="input"/>
+        <pin num="8" name="CS_CYRF6936" type="input"/>
+        <pin num="9" name="SCK" type="input"/>
+        <pin num="10" name="MOSI" type="input"/>
+        <pin num="11" name="MISO" type="input"/>
+        <pin num="12" name="CYRF_RST" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="RFO" type="input"/>
+        <pin num="17" name="GND" type="input"/>
+        <pin num="18" name="GND" type="input"/>
+        <pin num="19" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="RP-SMA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RP-SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANT" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="WS2812B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WS2812B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="DOUT" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spectre" part="esp32-lolin32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">esp32-lolin32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="36" type="input"/>
+        <pin num="4" name="39" type="input"/>
+        <pin num="5" name="32" type="input"/>
+        <pin num="6" name="33" type="input"/>
+        <pin num="7" name="34" type="input"/>
+        <pin num="8" name="35" type="input"/>
+        <pin num="9" name="25" type="input"/>
+        <pin num="10" name="26" type="input"/>
+        <pin num="11" name="27" type="input"/>
+        <pin num="12" name="14" type="input"/>
+        <pin num="13" name="12" type="input"/>
+        <pin num="14" name="13" type="input"/>
+        <pin num="15" name="VUSB" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="15" type="input"/>
+        <pin num="18" name="2" type="input"/>
+        <pin num="19" name="GND" type="input"/>
+        <pin num="20" name="0" type="input"/>
+        <pin num="21" name="4" type="input"/>
+        <pin num="22" name="16" type="input"/>
+        <pin num="23" name="17" type="input"/>
+        <pin num="24" name="3V3" type="input"/>
+        <pin num="25" name="5" type="input"/>
+        <pin num="26" name="18" type="input"/>
+        <pin num="27" name="23" type="input"/>
+        <pin num="28" name="19" type="input"/>
+        <pin num="29" name="GND" type="input"/>
+        <pin num="30" name="GND" type="input"/>
+        <pin num="31" name="21" type="input"/>
+        <pin num="32" name="22" type="input"/>
+        <pin num="33" name="3V3" type="input"/>
+        <pin num="34" name="3" type="input"/>
+        <pin num="35" name="1" type="input"/>
+        <pin num="36" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="spectre">
+      <uri>/home/spectre/kicad/radio_omnibus_extention_board/kicad_lib_spectre/components/spectre.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U3" pin="36"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="16"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U3" pin="30"/>
+      <node ref="U3" pin="29"/>
+      <node ref="U3" pin="19"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="4" name="/PE2">
+      <node ref="U3" pin="13"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="5" name="/PE1">
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="7" name="/CS_LCD">
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="8" name="/CYRF_RST">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="9" name="/RX0">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="10" name="/TX0">
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="11" name="/ADC1_CH4">
+      <node ref="J3" pin="3"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="12" name="/ADC1_CH5">
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="14" name="/MISO">
+      <node ref="U3" pin="28"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="15" name="/SCK">
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U3" pin="26"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="16" name="/MOSI">
+      <node ref="U1" pin="16"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="/NEOPIXEL">
+      <node ref="U3" pin="25"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="18" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="19" name="/CS_NRF24">
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="10"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="22" name="/SDL">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="31" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="32" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="33" name="/CS_A7105">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="34" name="/CS_CC25">
+      <node ref="U3" pin="11"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="35" name="/CS_CYRF">
+      <node ref="U3" pin="9"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="36" name="/CS_SD">
+      <node ref="U3" pin="22"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="37" name="/LCD_CMD">
+      <node ref="U3" pin="18"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="38" name="/ADC1_CH7">
+      <node ref="U6" pin="6"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="39" name="/ADC1_CH6">
+      <node ref="U3" pin="7"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="40" name="/ADC1_CH3">
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="41" name="/ADC1_CH0">
+      <node ref="U3" pin="3"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="42" name="/CS_TOUCH">
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="21"/>
+    </net>
+  </nets>
+</export>
