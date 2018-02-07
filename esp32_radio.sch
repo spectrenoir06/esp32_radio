@@ -29,9 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ESP32-footprints-Shem-Lib
-LIBS:spectre
 LIBS:switches
-LIBS:esp32_radio-cache
+LIBS:spectre
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1074,7 +1073,7 @@ F 3 "" H 5450 6600 50  0001 C CNN
 $EndComp
 Text Notes 4700 750  0    99   ~ 0
 Extensions ports
-Text Label 1050 5800 2    60   ~ 0
+Text Label 800  5650 2    60   ~ 0
 CS_ADC
 Wire Notes Line
 	6850 2050 6850 500 

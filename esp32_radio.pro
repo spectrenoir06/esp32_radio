@@ -1,4 +1,4 @@
-update=jeu. 16 nov. 2017 04:57:01 CET
+update=Sat 18 Nov 2017 18:44:33 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../git/kicad-lib/components
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,5 +69,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/spectre/git/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
-LibName31=/home/spectre/kicad/radio_omnibus_extention_board/kicad_lib_spectre/components/spectre
-LibName32=/home/spectre/git/kicad-library/library/switches
+LibName31=/home/spectre/git/kicad-library/library/switches
+LibName32=/home/spectre/kicad/libraries/kicad_lib_spectre/components/spectre
