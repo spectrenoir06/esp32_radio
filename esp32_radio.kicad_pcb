@@ -2602,7 +2602,7 @@
     (arrow2a (pts (xy 109.22 124.46) (xy 110.346504 125.046421)))
     (arrow2b (pts (xy 109.22 124.46) (xy 110.346504 123.873579)))
   )
-  (gr_text "Spectre-TX\nMultiprotocol\nTransmitter\nProto V2" (at 156.5 64) (layer F.SilkS)
+  (gr_text "Spectre-TX\nMultiprotocol\nTransmitter\nProto V3" (at 156.5 64) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_arc (start 110.49 114.3) (end 110.49 115.57) (angle 90) (layer Edge.Cuts) (width 0.15))
