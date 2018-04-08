@@ -902,10 +902,6 @@ F 3 "" H 2100 4050 50  0001 C CNN
 	1    2100 4050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1150 5700
-NoConn ~ 1150 5800
-NoConn ~ 1150 6100
-NoConn ~ 1150 6200
 Wire Notes Line
 	3800 500  3800 7750
 Wire Notes Line
@@ -1177,4 +1173,12 @@ Wire Notes Line
 	3800 4850 500  4850
 Wire Notes Line
 	500  2050 11200 2050
+Text Label 1150 5700 2    60   ~ 0
+INT_ADC_CH0
+Text Label 1150 5800 2    60   ~ 0
+INT_ADC_CH1
+Text Label 1150 6100 2    60   ~ 0
+INT_ADC_CH2
+Text Label 1150 6200 2    60   ~ 0
+INT_ADC_CH3
 $EndSCHEMATC

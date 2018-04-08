@@ -1,4 +1,4 @@
-update=sam. 17 févr. 2018 02:40:08 CET
+update=dim. 08 avril 2018 20:01:57 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -72,3 +62,13 @@ LibName30=valves
 LibName31=/home/spectre/git/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
 LibName32=/home/spectre/git/kicad-library/library/switches
 LibName33=/home/spectre/dev/elec/kicadlibs/kicad_lib_spectre/components/spectre
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
