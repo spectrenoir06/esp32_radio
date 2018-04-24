@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/spectre/dev/elec/kicad_projects/esp32_radio/esp32_radio.sch</source>
-    <date>mer. 25 avril 2018 01:30:41 CEST</date>
+    <date>mer. 25 avril 2018 01:34:25 CEST</date>
     <tool>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -48,7 +48,7 @@
       <tstamp>59C5B493</tstamp>
     </comp>
     <comp ref="C6">
-      <value>1µF</value>
+      <value>1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,14 +181,14 @@
       <tstamp>5ADD7A87</tstamp>
     </comp>
     <comp ref="C12">
-      <value>10µF</value>
+      <value>10uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADD81F1</tstamp>
     </comp>
     <comp ref="C11">
-      <value>0.1µF</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -363,7 +363,7 @@
       <tstamp>5ADD6EC2</tstamp>
     </comp>
     <comp ref="R1">
-      <value>100k</value>
+      <value>100K</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
