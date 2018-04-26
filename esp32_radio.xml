@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/spectre/dev/elec/kicad_projects/esp32_radio/esp32_radio.sch</source>
-    <date>mer. 25 avril 2018 03:23:40 CEST</date>
+    <date>jeu. 26 avril 2018 06:12:25 CEST</date>
     <tool>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -154,7 +154,7 @@
     </comp>
     <comp ref="U3">
       <value>ESP32-WROOM</value>
-      <footprint>spectre:ESP32-WROOM</footprint>
+      <footprint>spectre:ESP32-WROOM-WROVER</footprint>
       <libsource lib="spectre" part="ESP32-WROOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADD1B62</tstamp>
@@ -1001,17 +1001,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="adc-dac">
-      <uri>/usr/share/kicad/library/adc-dac.lib</uri>
-    </library>
     <library logical="transistors">
       <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="adc-dac">
+      <uri>/usr/share/kicad/library/adc-dac.lib</uri>
     </library>
     <library logical="spectre">
       <uri>/home/spectre/dev/elec/kicad_projects/kicadlibs/kicad_lib_spectre/components/spectre.lib</uri>

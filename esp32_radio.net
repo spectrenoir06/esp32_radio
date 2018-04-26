@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/spectre/dev/elec/kicad_projects/esp32_radio/esp32_radio.sch)
-    (date "mer. 25 avril 2018 03:06:49 CEST")
+    (date "jeu. 26 avril 2018 04:01:25 CEST")
     (tool "Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -131,7 +131,7 @@
       (tstamp 5ADD156E))
     (comp (ref U3)
       (value ESP32-WROOM)
-      (footprint spectre:ESP32-WROOM)
+      (footprint spectre:ESP32-WROOM-WROVER)
       (libsource (lib spectre) (part ESP32-WROOM))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADD1B62))
@@ -840,14 +840,14 @@
         (pin (num 7) (name MISO) (type output))
         (pin (num 8) (name IRQ) (type input)))))
   (libraries
-    (library (logical adc-dac)
-      (uri /usr/share/kicad/library/adc-dac.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical adc-dac)
+      (uri /usr/share/kicad/library/adc-dac.lib))
     (library (logical spectre)
       (uri /home/spectre/dev/elec/kicad_projects/kicadlibs/kicad_lib_spectre/components/spectre.lib)))
   (nets
