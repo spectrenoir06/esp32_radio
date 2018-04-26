@@ -4770,6 +4770,11 @@
       (net 65 "Net-(U3-Pad18)"))
     (pad 19 smd oval (at 8.89 -22.86) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(U3-Pad19)"))
+    (model /home/spectre/dev/elec/kicad_projects/kicadlibs/kicad_lib_spectre/3d/KiCAD-ESP-WROOM-32.wrl
+      (at (xyz 0 0.21 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module spectre:Via (layer F.Cu) (tedit 5AE14A95) (tstamp 5AE1548A)
