@@ -137,15 +137,15 @@ hr{
 <body>
     <div id="main">
         <div id="TableId">
-            <div class="Header"><a href=""><h1>Spectre-TX BOM <br>Rev V4</h1></a> <div id="logo"></div></div>
+            <div class="Header"><a href=""><h1>Multiprotocol Radio BOM <br>Rev V4</h1></a> <div id="logo"></div></div>
             <div id="BOMInfoID">
-                <strong>Date<h1> 2018-04-25</h1></strong>
+                <strong>Date<h1> 2018-04-26</h1></strong>
                 <strong>Company<h1> </h1></strong>
-                <strong>Comment 1<h1> </h1></strong>
+                <strong>Comment 1<h1> One Radio to rule them all</h1></strong>
                 <strong>Comment 2<h1> </h1></strong>
                 <strong>Comment 3<h1> </h1></strong>
                 <strong>Comment 4<h1> </h1></strong>
-                <strong>Total Parts<h1> 55 (Unique 37)</h1></strong>
+                <strong>Total Parts<h1> 61 (Unique 39)</h1></strong>
             </div>
 
             <div class="group_head"><div class="partRow"><div class='Head HeadRefTag'>Ref</div><div class='Head HeadQtyTag'>Qty</div><div class='Head HeadValueTag'>Value</div><div class='Head HeadFootprintTag'>Footprint</div></div></div>
@@ -186,22 +186,22 @@ hr{
 <hr>
 <div class="group">
 	<div class="partRow RowOddTag">
-    <div class="column HeadRefTag">C6 C3 </div>
-    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadRefTag">C6 C3 C15 </div>
+    <div class="column HeadQtyTag">3</div>
     <div class="column HeadValueTag">1uF</div>
     <div class="column HeadFootprintTag">Capacitors_SMD:C_0805</div>
     
 </div>
 <div class="partRow RowEvenTag">
-    <div class="column HeadRefTag">C7 C12 C5 C2 C1 C4 C14 </div>
-    <div class="column HeadQtyTag">7</div>
+    <div class="column HeadRefTag">C7 C12 C5 C2 C1 C4 C14 C17 </div>
+    <div class="column HeadQtyTag">8</div>
     <div class="column HeadValueTag">10uF</div>
     <div class="column HeadFootprintTag">Capacitors_SMD:C_0805</div>
     
 </div>
 <div class="partRow RowOddTag">
-    <div class="column HeadRefTag">C9 C11 </div>
-    <div class="column HeadQtyTag">2</div>
+    <div class="column HeadRefTag">C9 C11 C16 </div>
+    <div class="column HeadQtyTag">3</div>
     <div class="column HeadValueTag">0.1uF</div>
     <div class="column HeadFootprintTag">Capacitors_SMD:C_0805</div>
     
@@ -216,7 +216,7 @@ hr{
 <div class="partRow RowOddTag">
     <div class="column HeadRefTag">C13 </div>
     <div class="column HeadQtyTag">1</div>
-    <div class="column HeadValueTag">???</div>
+    <div class="column HeadValueTag">100nF</div>
     <div class="column HeadFootprintTag">Capacitors_SMD:C_0805</div>
     
 </div>
@@ -360,8 +360,8 @@ hr{
     
 </div>
 <div class="partRow RowOddTag">
-    <div class="column HeadRefTag">R10 R11 R12 R4 R5 </div>
-    <div class="column HeadQtyTag">5</div>
+    <div class="column HeadRefTag">R10 R11 R12 R4 R5 R13 </div>
+    <div class="column HeadQtyTag">6</div>
     <div class="column HeadValueTag">10K</div>
     <div class="column HeadFootprintTag">Resistors_SMD:R_0805</div>
     
@@ -404,86 +404,108 @@ hr{
 
 </div>
 <hr>
+<div class="group group_title group_SW">
+[SW] -
+</div>
+<hr>
+<div class="group">
+	<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">SW1 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">SW_Push</div>
+    <div class="column HeadFootprintTag">Buttons_Switches_SMD:SW_SPST_SKQG</div>
+    
+</div>
+
+</div>
+<hr>
 <div class="group group_title group_U">
 [U] -
 </div>
 <hr>
 <div class="group">
-	<div class="partRow RowOddTag">
+	<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U11 U12 </div>
     <div class="column HeadQtyTag">2</div>
     <div class="column HeadValueTag">Joystick</div>
     <div class="column HeadFootprintTag">spectre:Joystick_raider</div>
     
 </div>
-<div class="partRow RowEvenTag">
+<div class="partRow RowOddTag">
     <div class="column HeadRefTag">U6 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">WS2812B</div>
     <div class="column HeadFootprintTag">LEDs:LED_WS2812B-PLCC4</div>
     
 </div>
-<div class="partRow RowOddTag">
+<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U7 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">MAX98357a</div>
     <div class="column HeadFootprintTag">Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm</div>
     
 </div>
-<div class="partRow RowEvenTag">
+<div class="partRow RowOddTag">
     <div class="column HeadRefTag">U10 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">MCP3008</div>
     <div class="column HeadFootprintTag">Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</div>
     
 </div>
-<div class="partRow RowOddTag">
+<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U4 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">nRF24L01</div>
-    <div class="column HeadFootprintTag">RF_Modules:nRF24L01_Breakout</div>
+    <div class="column HeadFootprintTag">spectre:nRF24L01_Breakout</div>
     
 </div>
-<div class="partRow RowEvenTag">
+<div class="partRow RowOddTag">
     <div class="column HeadRefTag">U1 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">RF4IN1</div>
     <div class="column HeadFootprintTag">spectre:RF4IN1</div>
     
 </div>
-<div class="partRow RowOddTag">
+<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U3 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">ESP32-WROOM</div>
     <div class="column HeadFootprintTag">spectre:ESP32-WROOM-WROVER</div>
     
 </div>
-<div class="partRow RowEvenTag">
+<div class="partRow RowOddTag">
     <div class="column HeadRefTag">U8 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">CP2104</div>
     <div class="column HeadFootprintTag">Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm</div>
     
 </div>
-<div class="partRow RowOddTag">
+<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U9 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">XPT2046TS</div>
     <div class="column HeadFootprintTag">Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</div>
     
 </div>
-<div class="partRow RowEvenTag">
+<div class="partRow RowOddTag">
     <div class="column HeadRefTag">U5 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">MCP73831</div>
     <div class="column HeadFootprintTag">TO_SOT_Packages_SMD:TSOT-23-5</div>
     
 </div>
-<div class="partRow RowOddTag">
+<div class="partRow RowEvenTag">
     <div class="column HeadRefTag">U2 </div>
     <div class="column HeadQtyTag">1</div>
     <div class="column HeadValueTag">AP2112-3.3</div>
     <div class="column HeadFootprintTag">TO_SOT_Packages_SMD:SOT-23-5</div>
+    
+</div>
+<div class="partRow RowOddTag">
+    <div class="column HeadRefTag">U13 </div>
+    <div class="column HeadQtyTag">1</div>
+    <div class="column HeadValueTag">CC2500</div>
+    <div class="column HeadFootprintTag">Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm</div>
     
 </div>
 
@@ -491,7 +513,7 @@ hr{
 
             <hr>
 
-            <div class="group footer"><h1>BOM made with <a href="https://github.com/HashDefineElectronics/KiCad_BOM_Wizard">KICAD_BOM_WIZARD</a><br>(Generated jeu. 26 avril 2018 18:54:48 CEST)</h1></div>
+            <div class="group footer"><h1>BOM made with <a href="https://github.com/HashDefineElectronics/KiCad_BOM_Wizard">KICAD_BOM_WIZARD</a><br>(Generated ven. 27 avril 2018 06:08:27 CEST)</h1></div>
         </div>
     </div>
 </body>
