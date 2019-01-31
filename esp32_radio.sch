@@ -1432,7 +1432,7 @@ F 3 "" H 3450 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BS250 Q1
+L Device:Q_PMOS_GSD Q1
 U 1 1 5ADD7EB4
 P 1150 1050
 F 0 "Q1" H 1350 1125 50  0000 L CNN
