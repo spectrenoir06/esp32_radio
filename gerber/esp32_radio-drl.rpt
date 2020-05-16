@@ -1,0 +1,33 @@
+Drill report for /home/spectre/dev/elec/kicad_projects/esp32_radio/esp32_radio.kicad_pcb
+Created on Sat 16 May 2020 11:05:47 AM CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'esp32_radio-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.33mm  0.013"  (90 holes)
+    T2  0.45mm  0.018"  (2 holes)  (with 2 slots)
+    T3  0.55mm  0.022"  (2 holes)
+    T4  0.75mm  0.030"  (2 holes)
+    T5  0.76mm  0.030"  (16 holes)
+    T6  0.99mm  0.039"  (4 holes)
+    T7  1.00mm  0.039"  (10 holes)
+    T8  1.20mm  0.047"  (12 holes)
+    T9  1.30mm  0.051"  (4 holes)
+    T10  2.20mm  0.087"  (4 holes)
+
+    Total plated holes count 146
+
+
+Drill file 'esp32_radio-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.90mm  0.035"  (2 holes)
+    T2  1.70mm  0.067"  (8 holes)
+
+    Total unplated holes count 10
