@@ -261,7 +261,7 @@ F 3 "x" H 6200 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_radio-rescue:Micro_SD_Card-Connector J4
+L Connector:Micro_SD_Card J4
 U 1 1 5ADD156E
 P 8850 2850
 F 0 "J4" H 8200 3450 50  0000 C CNN
@@ -490,7 +490,7 @@ F 3 "" H 7450 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_radio-rescue:XPT2046TS-Driver_Display U5
+L Driver_Display:XPT2046TS U5
 U 1 1 5ADD818E
 P 5750 4950
 F 0 "U5" H 5400 5400 50  0000 C CNN
@@ -1782,7 +1782,6 @@ F 3 "" H 7800 4550 50  0001 C CNN
 $EndComp
 Connection ~ 3250 5250
 Connection ~ 5100 5250
-Connection ~ 5650 4450
 Connection ~ 750  6850
 Connection ~ 2400 6450
 Wire Wire Line
